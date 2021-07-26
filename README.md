@@ -358,7 +358,7 @@ After the high level over view, let’s take a closer look at the individual ser
 	- `image`: The `image` key holds the name of the image being built
 	- `environment`: Inside the `environment` map
 		- `DB_HOST` variable demonstrates a feature of Docker Compose
-			- That is, you can ~refer to another service in the same application by using its name~. So the `db` here will be replaced by the IP address of the `api` address of the db service container
+			- That is, you can ==refer to another service in the same application by using its name==. So the `db` here will be replaced by the IP address of the `api` address of the db service container
 			- The `DB__DATABSE` and `DB_PASSWORD` have to match up with the `POSTGRES_DB` and `POSTGRES_PASSWORD` respectively from the db service definition
 
 ### How to Start Services in Docker Compose
